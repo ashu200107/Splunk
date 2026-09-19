@@ -155,7 +155,8 @@ Once Distributed Mode is activated, the Monitoring Console unlocks pre-built ent
 │ DASHBOARD NAME     │ WHAT IT TRACKS & WHY IT MATTERS                   │
 ├────────────────────┼───────────────────────────────────────────────────┤
 │ 1. Topology &      │ Complete inventory map of all servers, Splunk     │
-│    Instance Health │ versions, CPU cores, RAM capacity, and OS details.│
+│    Instance Health │ versions, CPU cores, RAM capacity, and OS deta
+ils.│
 ├────────────────────┼───────────────────────────────────────────────────┤
 │ 2. Indexing Queue  │ Ingestion pipeline health: fill % of parsingQueue,│
 │    Pipeline Health │ indexQueue, and disk write IOPS throughput (MB/s).│

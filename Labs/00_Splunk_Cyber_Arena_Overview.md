@@ -10,9 +10,9 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│ 👤 OPERATOR: venom                       🎖️ RANK: Splunk SysAdmin      │
-│ 🌟 TOTAL XP: 2,350 / 5,000               🔥 STREAK: Day 12             │
-│ 🚩 FLAGS CAPTURED: 24 / 52               📊 PHASES: Phase 1 & Phase 2 │
+│ 👤 OPERATOR: venom                       🎖️ RANK: Splunk Senior Admin  │
+│ 🌟 TOTAL XP: 2,650 / 5,000               🔥 STREAK: Day 13             │
+│ 🚩 FLAGS CAPTURED: 28 / 52               📊 PHASES: Phase 1 & Phase 2 │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 

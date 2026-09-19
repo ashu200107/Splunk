@@ -48,7 +48,8 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Ph2 Ch 03** | Universal Forwarder (UF) Rollout | 🟢 Completed | **9.8 / 10** | Mastered S2S protocol on port 9997, outputs.conf, useACK=true reliability, and UF CLI commands. | 2026-09-05 |
 | **Ph2 Ch 04** | Heavy Forwarder (HF) Architecture | 🟢 Completed | **9.7 / 10** | Mastered in-memory parsing, PII regex masking, _TCP_ROUTING, and index=false safeguard. | 2026-09-12 |
 | **Ph2 Ch 05** | License Manager & Slave Pairing | 🟢 Completed | **9.9 / 10** | Mastered central License Master/Slave setup, port 8089 pairing, server.conf, and 72-hour grace period. <br/>🎮 *[Cyber Range Room 02: License Vault Heist](../Labs/Room_02_License_Vault_Heist_and_72Hr_Survival.md)* | 2026-09-12 |
-| **Ph2 Ch 06** | Monitoring Console (MC) Setup | 🟡 Assigned | ⏳ Pending Study | Next topic: Distributed mode setup, search peers, server roles, pipeline queue health, and MC alerts. <br/>🎮 *[Cyber Range Room 03: MC Queue Jam Triage](../Labs/Room_03_Monitoring_Console_Mission_Control.md)* | - |
+| **Ph2 Ch 06** | Monitoring Console (MC) Setup | 🟢 Completed | **9.8 / 10** | Flawless grasp of DMC history, Standalone vs Distributed mode, port 8089 HTTPS pairing, dedicated MC sizing in high-volume tiers, and indexQueue IOPS bottlenecks. <br/>🎮 *[Cyber Range Room 03: MC Queue Jam Triage](../Labs/Room_03_Monitoring_Console_Mission_Control.md)* | 2026-09-19 |
+| **Ph2 Ch 07** | HTTP Event Collector (HEC) Setup | 🟡 Assigned | ⏳ Pending Study | Next topic: Token generation, JSON payloads, curl testing, SSL certificates, index routing, and HEC indexer acknowledgements. | - |
 
 ---
 
