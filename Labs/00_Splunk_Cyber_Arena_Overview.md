@@ -85,6 +85,8 @@ graph TD
 | **ROOM 01** | **The Heavy Forwarder Port Clash** | Port 8089 ➔ 8090 offset, `index=false`, PII regex | 🟢 Easy-Med | `200 XP` | **[Enter Room](./Room_01_Heavy_Forwarder_Infiltration_and_Port_Clash.md)** |
 | **ROOM 02** | **The Central License Vault Heist** | License Master, `server.conf` pairing, 72h grace | 🟡 Medium | `250 XP` | **[Enter Room](./Room_02_License_Vault_Heist_and_72Hr_Survival.md)** |
 | **ROOM 03** | **Monitoring Console: Queue Triage**| Distributed MC, `indexQueue` vs `parsingQueue`, disk chokes | 🔴 Med-Hard | `300 XP` | **[Enter Room](./Room_03_Monitoring_Console_Mission_Control.md)** |
+| **ROOM 04** | **HEC Token Security & Cloud Triage**| Port 8088, inputs.conf, Token scoping, `curl`, useACK | 🟡 Medium | `250 XP` | **[Enter Room](./Room_04_HEC_Token_Security_and_JSON_Ingestion.md)** |
+
 
 ---
 

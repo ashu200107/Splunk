@@ -66,7 +66,7 @@ graph TD
 | **Ch 04** | [Heavy Forwarder (HF) Architecture](./Chapter_04_Heavy_Forwarder_Deployment_and_Routing.md) | **[Room 01: Heavy Forwarder Port Clash & Triage](../Labs/Room_01_Heavy_Forwarder_Infiltration_and_Port_Clash.md)** `[200 XP]` | 🟢 9.7 / 10 |
 | **Ch 05** | [License Manager Pairing & Pools](./Chapter_05_License_Manager_Pairing_and_Pools.md) | **[Room 02: Central License Vault Heist & 72h Grace](../Labs/Room_02_License_Vault_Heist_and_72Hr_Survival.md)** `[250 XP]` | 🟢 9.9 / 10 |
 | **Ch 06** | [Monitoring Console (MC) Setup](./Chapter_06_Monitoring_Console_Setup_and_Telemetry.md) | **[Room 03: Monitoring Console: Queue Jam Triage](../Labs/Room_03_Monitoring_Console_Mission_Control.md)** `[300 XP]` | 🟢 9.8 / 10 |
-| **Ch 07** | [HTTP Event Collector (HEC) Setup](./Chapter_07_HTTP_Event_Collector_Setup_and_Security.md) | *[Room 04: HEC Token Security & JSON Ingestion]* *(Upcoming)* | 🟡 In Progress |
+| **Ch 07** | [HTTP Event Collector (HEC) Setup](./Chapter_07_HTTP_Event_Collector_Setup_and_Security.md) | **[Room 04: HEC Token Security & Cloud Ingestion](../Labs/Room_04_HEC_Token_Security_and_JSON_Ingestion.md)** `[250 XP]` | 🟡 In Progress |
 
 👉 **[Enter the Master Cyber Range Arena](../Labs/00_Splunk_Cyber_Arena_Overview.md)** 🚀
 
