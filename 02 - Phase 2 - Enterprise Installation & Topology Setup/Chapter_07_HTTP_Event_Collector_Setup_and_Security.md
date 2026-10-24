@@ -1,4 +1,4 @@
-# 📖 Chapter 07 (Phase 2): HTTP Event Collector (HEC) Setup, Tokens & Security
+ # 📖 Chapter 07 (Phase 2): HTTP Event Collector (HEC) Setup, Tokens & Security
 
 > **The Splunk Administrator's Definitive Handbook** | Phase 2: Enterprise Installation & Topology Setup  
 > **Course Status:** Phase 2, Chapter 07 | **Current Rank:** Splunk Senior Admin (2,650 XP)  

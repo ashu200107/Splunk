@@ -47,10 +47,10 @@ A Junior Admin claims: *"Let's install Universal Forwarders everywhere and use t
 
 #### Question 1.1
 Why will the Junior Admin's plan fail on Universal Forwarders?  
-- [A] The Universal Forwarder only works on Windows.
-- [B] The Universal Forwarder does NOT contain the Python engine or the parsing pipeline; it cannot perform in-memory regex masking.
-- [C] The Universal Forwarder can only forward data to one Indexer.
-- [D] The Universal Forwarder requires an enterprise license key.
+- [ ] The Universal Forwarder only works on Windows.
+- [x] The Universal Forwarder does NOT contain the Python engine or the parsing pipeline; it cannot perform in-memory regex masking.
+- [ ] The Universal Forwarder can only forward data to one Indexer.
+- [ ] The Universal Forwarder requires an enterprise license key.
 
 <details>
 <summary>💡 Need a Hint?</summary>
