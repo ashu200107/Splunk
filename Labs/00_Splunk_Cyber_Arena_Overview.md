@@ -10,9 +10,9 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────┐
-│ 👤 OPERATOR: venom                       🎖️ RANK: Splunk Senior Admin  │
-│ 🌟 TOTAL XP: 2,650 / 5,000               🔥 STREAK: Day 13             │
-│ 🚩 FLAGS CAPTURED: 28 / 52               📊 PHASES: Phase 1 & Phase 2 │
+│ 👤 OPERATOR: venom                       🎖️ RANK: Splunk Enterprise Arch│
+│ 🌟 TOTAL XP: 3,050 / 6,500               🔥 STREAK: Day 16             │
+│ 🚩 FLAGS CAPTURED: 33 / 65               📊 PHASES: Phase 1 & 2 Clear │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -86,7 +86,60 @@ graph TD
 | **ROOM 02** | **The Central License Vault Heist** | License Master, `server.conf` pairing, 72h grace | 🟡 Medium | `250 XP` | **[Enter Room](./Room_02_License_Vault_Heist_and_72Hr_Survival.md)** |
 | **ROOM 03** | **Monitoring Console: Queue Triage**| Distributed MC, `indexQueue` vs `parsingQueue`, disk chokes | 🔴 Med-Hard | `300 XP` | **[Enter Room](./Room_03_Monitoring_Console_Mission_Control.md)** |
 | **ROOM 04** | **HEC Token Security & Cloud Triage**| Port 8088, inputs.conf, Token scoping, `curl`, useACK | 🟡 Medium | `250 XP` | **[Enter Room](./Room_04_HEC_Token_Security_and_JSON_Ingestion.md)** |
+| **ROOM P2-CAP**| **The Multi-Tier Boss Arena** | Full 4-Tier Troubleshooting, IOPS, ports, HEC | 🔴 Hard | `400 XP` | **[Enter Room](./Room_P2_Capstone_Boss_Arena.md)** |
 
+---
+
+## 📂 Phase 3 Challenge Rooms (Data Onboarding & Parsing Pipeline)
+
+| Room ID | Room Name | Focus Area | Difficulty | Points / XP | Link |
+| :---: | :--- | :--- | :--- | :---: | :---: |
+| **ROOM P3-01** | **Fishbucket Forensics & Ingestion** | `inputs.conf`, Wildcards, CRC 256, `btprobe`, Salt | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P3_01_inputs_conf_and_Fishbucket_Forensics.md)** |
+| **ROOM P3-02** | **The Sourcetype Taxonomy Surgery** | Standard Taxonomy, syslog split, CIM, `...-too_small` | 🟡 Medium | `200 XP` | **[Enter Room](./Room_P3_02_Sourcetype_Taxonomy.md)** |
+| **ROOM P3-03** | **The Event Breaking Surgery** | `LINE_BREAKER`, `TRUNCATE`, `TIME_PREFIX`, `TIME_FORMAT` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P3_03_Event_Breaking_Surgery.md)** |
+| **ROOM P3-04** | **Props & Transforms Battleground** | Tier Distribution Matrix, `TRANSFORMS-` vs `REPORT-` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P3_04_Props_and_Transforms_Battleground.md)** |
+| **ROOM P3-05** | **The NullQueue Trash Chute** | `nullQueue` discard, licensing savings, `_MetaData:Index` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P3_05_NullQueue_Trash_Chute.md)** |
+| **ROOM P3-06** | **PII Redaction Operations** | `SEDCMD`, PCI-DSS card masking, SSN scrubbing, API keys | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P3_06_PII_Redaction_Operations.md)** |
+| **ROOM P3-07** | **Search-Time Regex Heist** | `EXTRACT-`, `DELIMS` tokens, `MV_ADD`, `KV_MODE = json` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P3_07_Search_Time_Regex_Heist.md)** |
+| **ROOM P3-08** | **The Calculated Field Alchemist** | `FIELDALIAS-`, `EVAL-` formulas, sourcetype renaming | 🟡 Medium | `200 XP` | **[Enter Room](./Room_P3_08_Calculated_Field_Alchemist.md)** |
+| **ROOM P3-09** | **KV Store & Lookup Infiltration** | Automatic CSV Lookups, MongoDB port 8191, `outputlookup` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P3_09_KV_Store_Lookup_Infiltration.md)** |
+| **ROOM P3-10** | **CIM Normalization Arena** | CIM Data Models, Enterprise Security, tags & eventtypes | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P3_10_CIM_Normalization_Arena.md)** |
+| **ROOM P3-11** | **Eventtype Tagging Ops** | Boolean filters, `eventtypes.conf`, `tags.conf`, `tag::<field>` | 🟡 Medium | `200 XP` | **[Enter Room](./Room_P3_11_Eventtype_Tagging_Ops.md)** |
+| **ROOM P3-12** | **Ingestion Outage Runbook** | Queue bottlenecks, 1970 drift, regex backtrack, `btprobe` | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P3_12_Ingestion_Outage_Runbook.md)** |
+| **ROOM P3-CAP**| **The Banking Log Gauntlet** | Full Banking Onboarding, Fishbucket, nullQueue, SEDCMD, CIM | 🔴 Expert | `500 XP` | **[Enter Room](./Room_P3_Capstone_Banking_Log_Gauntlet.md)** |
+
+---
+
+## 📂 Phase 4 Challenge Rooms (Advanced SPL & Search Optimization)
+
+| Room ID | Room Name | Focus Area | Difficulty | Points / XP | Link |
+| :---: | :--- | :--- | :--- | :---: | :---: |
+| **ROOM P4-01** | **The Search Dispatch Heist** | Fast vs Smart vs Verbose, Dispatch directory, `info.csv`, kill job | 🟢 Easy-Med | `250 XP` | **[Enter Room](./Room_P4_01_Search_Dispatch_and_Modes.md)** |
+| **ROOM P4-02** | **Transforming Arena** | `stats`, `chart`, `timechart`, `top`, `rare`, rate normalization | 🟡 Medium | `200 XP` | **[Enter Room](./Room_P4_02_Transforming_Commands_Arena.md)** |
+| **ROOM P4-03** | **Multivalue JSON Surgery** | `spath`, nested JSON arrays, `rex max_match`, `mvexpand`, `eval` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P4_03_Multivalue_JSON_Surgery.md)** |
+| **ROOM P4-04** | **The LIS Index Filter Optimization** | `where` vs `search`, `dedup sortby`, `fields +`, `head` vs `tail` | 🟡 Medium | `200 XP` | **[Enter Room](./Room_P4_04_Filtering_and_Dedup_Optimization.md)** |
+| **ROOM P4-05** | **Transaction Memory Meltdown** | `transaction` vs `stats`, memory eviction, `join` 50k cap, `union` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P4_05_Transaction_vs_Stats_Memory_Wars.md)** |
+| **ROOM P4-06** | **The Subsearch 10K Ceiling** | Subsearch limits, `format` boolean compiler, dynamic thresholds | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P4_06_Subsearch_Architecture_and_Limits.md)** |
+| **ROOM P4-07** | **KV Store High-Speed CRUD** | `inputlookup where`, `outputlookup append=t`, KV Store `_key` | 🟡 Medium | `200 XP` | **[Enter Room](./Room_P4_07_KV_Store_SPL_CRUD.md)** |
+| **ROOM P4-08** | **The Summary Index Accelerator** | Report Acceleration, `sitimechart`, `collect`, DMA, 0.4s query | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P4_08_Summary_Indexing_and_Report_Acceleration.md)** |
+| **ROOM P4-09** | **The Sub-Second Tstats Gauntlet** | `tstats summariesonly=t`, CIM Data Models, direct `.tsidx` | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P4_09_Tstats_Command_Mastery.md)** |
+| **ROOM P4-10** | **Job Inspector Forensics** | LIS ratio, `command.search.kv`, `peers.csv` stragglers, 8 Golden Rules | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P4_10_Job_Inspector_Diagnostics.md)** |
+| **ROOM P4-CAP**| **Query Optimization Gauntlet** | Full SPL refactor, Fast Mode, multi-index stats, KV Store, `tstats` | 🔴 Expert | `500 XP` | **[Enter Room](./Room_P4_Capstone_Enterprise_Query_Optimization.md)** |
+
+---
+
+## 📂 Phase 5 Challenge Rooms (Authentication, RBAC & Security Admin)
+
+| Room ID | Room Name | Focus Area | Difficulty | Points / XP | Link |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| **ROOM P5-01** | **The RBAC Vault Infiltration** | Custom roles, inheritance hierarchies, `authorize.conf`, quotas | 🟢 Easy-Med | `250 XP` | **[Enter Room](./Room_P5_01_User_and_Role_Architecture.md)** |
+| **ROOM P5-02** | **The Search Filter Sandbox Trap** | `srchIndexesAllowed`, `srchIndexesDefault`, `srchFilter` OR-bypass | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P5_02_Capabilities_and_Search_Filters.md)** |
+| **ROOM P5-03** | **The Admin Shadow Provisioner** | `etc/passwd`, CLI user admin, `[password_rules]`, `tokens.conf` JWT | 🟡 Medium | `200 XP` | **[Enter Room](./Room_P5_03_Native_Auth_and_REST_User_Mgmt.md)** |
+| **ROOM P5-04** | **Active Directory Forest Sync** | `authentication.conf`, LDAPS port 636, group mapping, referrals | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P5_04_LDAP_Active_Directory_Integration.md)** |
+| **ROOM P5-05** | **SAML Identity Breakout** | SAML 2.0, Okta SSO, Claims URI mapping, `idpCertPath`, time skew | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P5_05_SAML_SSO_Federation.md)** |
+| **ROOM P5-06** | **The S2S MITM Defense** | Mutual TLS (mTLS), S2S port 9997, `requireClientCert`, PKI chains | 🔴 Hard | `350 XP` | **[Enter Room](./Room_P5_06_Securing_Splunk_Communications_TLS.md)** |
+| **ROOM P5-07** | **The Fortress Hardening Audit** | CIS hardening, non-root `splunk`, `startwebserver=0`, `_audit` query | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P5_07_Splunk_Hardening_and_Audit_Forensics.md)** |
+| **ROOM P5-CAP** | **Security Architecture Gauntlet** | Enterprise RBAC, SAML SSO, S2S mTLS 9997, CIS Hardening, Boss | 🔴 Expert | `500 XP` | **[Enter Room](./Room_P5_Capstone_Enterprise_Security_Architecture.md)** |
 
 ---
 
