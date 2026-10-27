@@ -24,7 +24,7 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Phase 3** | Deep Data Onboarding & Parsing Pipeline | Days 16–28 | 🟢 **COMPLETED** | **10 / 10** (Mastered Pipeline)<br/>**All 13 Rooms Cleared** 🏆 | Ingestion pipeline, props/transforms, nullQueue, SEDCMD, CIM |
 | **Phase 4** | Advanced SPL & Search Optimization | Days 29–38 | 🟢 **COMPLETED** | **10 / 10** (Mastered Search Engine)<br/>**All 11 Rooms Cleared** 🏆 | Fast mode, transforming, stats over txn, join limits, tstats, Job Inspector |
 | **Phase 5** | Authentication, RBAC & Security Admin | Days 39–46 | 🟢 **COMPLETED** | **10 / 10** (Mastered RBAC & PKI)<br/>**All 8 Rooms Cleared** 🏆 | Multi-tenant RBAC, authorize.conf, LDAPS port 636, SAML 2.0 SSO, S2S mTLS 9997, CIS non-root hardening, _audit forensics |
-| **Phase 6** | Centralized Deployment Management | Days 47–53 | 🟡 **IN PROGRESS** (3/7) | **10 / 10** (Mastered Scaling & Sizing)<br/>**3 Rooms Cleared** 🏆 | Deployment Server architecture, serverclass.conf, phoneHome scaling, 10k nodes |
+| **Phase 6** | Centralized Deployment Management | Days 47–53 | 🟡 **IN PROGRESS** (4/7) | **10 / 10** (Mastered Diagnostics & Triage)<br/>**4 Rooms Cleared** 🏆 | Deployment Server architecture, serverclass.conf, phoneHome scaling, client diagnostics & triage |
 | **Phase 7** | Distributed Splunk & High-Availability | Days 54–66 | ⚪ Not Started | - | - |
 | **Phase 8** | Monitoring Console & Performance Tuning | Days 67–73 | ⚪ Not Started | - | - |
 | **Phase 9** | Enterprise Troubleshooting Runbooks | Days 74–80 | ⚪ Not Started | - | - |
@@ -88,6 +88,7 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Ph6 Ch 01** | Deployment Server & Pairing | 🟢 Completed | **10 / 10** | SPLK-1003 6.0: `deploymentclient.conf`, `targetUri`, `serverclass.conf`, `deployment-apps/`, `restartSplunkd`, and `reload deploy-server`. <br/>🎮 *[Cyber Range Room P6-01: The Rogue Forwarder Fleet](../Labs/Room_P6_01_Deployment_Server_and_Pairing.md)* | 2026-10-27 |
 | **Ph6 Ch 02** | Server Classes & App Bundling | 🟢 Completed | **10 / 10** | SPLK-1003 6.2/6.3: Whitelist/blacklist index contiguous rules, `machineTypesFilter = linux-x86_64`, modular app bundles, lookup restarts. <br/>🎮 *[Cyber Range Room P6-02: Server Class Precision Surgery](../Labs/Room_P6_02_Server_Classes_and_App_Bundles.md)* | 2026-10-27 |
 | **Ph6 Ch 03** | Scaling DS Beyond 5,000 Clients | 🟢 Completed | **10 / 10** | SPLK-1003 6.1: `phoneHomeIntervalInSecs = 900`, request rate math, ulimits 65535, `maxBandwidth`, no co-location on indexer. <br/>🎮 *[Cyber Range Room P6-03: The 10,000-Node Thundering Herd](../Labs/Room_P6_03_Scaling_Deployment_Server_High_Volume.md)* | 2026-10-27 |
+| **Ph6 Ch 04** | Fleet Diagnostics & Triage | 🟢 Completed | **10 / 10** | SPLK-1003 6.2/6.3: `splunk list deploy-clients`, `show deploy-poll`, GUID collision triage, `reload deploy-server -class`, DMC telemetry. <br/>🎮 *[Cyber Range Room P6-04: Deployment Client Diagnostic Runbook](../Labs/Room_P6_04_Deployment_Client_Diagnostics.md)* | 2026-10-27 |
 
 ---
 

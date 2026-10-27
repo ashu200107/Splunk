@@ -150,6 +150,7 @@ graph TD
 | **ROOM P6-01** | **The Rogue Forwarder Fleet** | `deploymentclient.conf`, `targetUri`, `serverclass.conf`, reload | 🟢 Easy-Med | `250 XP` | **[Enter Room](./Room_P6_01_Deployment_Server_and_Pairing.md)** |
 | **ROOM P6-02** | **Server Class Precision Surgery** | `serverclass.conf`, `whitelist.<n>` sequencing, `machineTypesFilter` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P6_02_Server_Classes_and_App_Bundles.md)** |
 | **ROOM P6-03** | **The 10,000-Node Thundering Herd**| `phoneHomeIntervalInSecs = 900`, request rate math, ulimits 65535 | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P6_03_Scaling_Deployment_Server_High_Volume.md)** |
+| **ROOM P6-04** | **Deployment Client Diagnostics**  | `splunk list deploy-clients`, GUID collisions, targeted reload | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P6_04_Deployment_Client_Diagnostics.md)** |
 
 ---
 
