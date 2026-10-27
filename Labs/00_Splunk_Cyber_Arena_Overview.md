@@ -152,6 +152,7 @@ graph TD
 | **ROOM P6-03** | **The 10,000-Node Thundering Herd**| `phoneHomeIntervalInSecs = 900`, request rate math, ulimits 65535 | 🔴 Hard | `300 XP` | **[Enter Room](./Room_P6_03_Scaling_Deployment_Server_High_Volume.md)** |
 | **ROOM P6-04** | **Deployment Client Diagnostics**  | `splunk list deploy-clients`, GUID collisions, targeted reload | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P6_04_Deployment_Client_Diagnostics.md)** |
 | **ROOM P6-05** | **The GitOps App Pipeline**        | GitOps versioning, `ksconf check/sort`, AppInspect CLI | 🔴 Hard   | `300 XP` | **[Enter Room](./Room_P6_05_GitOps_App_Deployment_Pipeline.md)** |
+| **ROOM P6-06** | **Zero-Downtime Fleet Maintenance**| `restartSplunkd`, `stateOnClient` (enabled/noop), de-provisioning | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P6_06_App_Lifecycle_and_Restart_Controls.md)** |
 
 ---
 
