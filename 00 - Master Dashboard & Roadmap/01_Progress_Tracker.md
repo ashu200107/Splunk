@@ -27,7 +27,7 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Phase 4** | Advanced SPL & Search Optimization | Days 29–38 | 🟢 **COMPLETED** | **10 / 10** (Mastered Search Engine)<br/>**All 11 Rooms Cleared** 🏆 | Fast mode, transforming, stats over txn, join limits, tstats, Job Inspector |
 | **Phase 5** | Authentication, RBAC & Security Admin | Days 39–46 | 🟢 **COMPLETED** | **10 / 10** (Mastered RBAC & PKI)<br/>**All 8 Rooms Cleared** 🏆 | Multi-tenant RBAC, authorize.conf, LDAPS port 636, SAML 2.0 SSO, S2S mTLS 9997, CIS non-root hardening, _audit forensics |
 | **Phase 6** | Centralized Deployment Management | Days 47–53 | 🟢 **COMPLETED** | **10 / 10** (Mastered 10k Fleet Operations)<br/>**All 7 Rooms Cleared** 🏆 | Deployment Server architecture, serverclass.conf, phoneHome scaling, client diagnostics, GitOps CI/CD, app lifecycle, Capstone Exam |
-| **Phase 7** | Distributed Splunk & High-Availability | Days 54–66 | 🟡 **IN PROGRESS** (1/13) | **10 / 10** (Mastered Distributed Search)<br/>**1 Room Cleared** 🏆 | Distributed search, distsearch.conf, Map-Reduce pipeline, knowledge bundle bloat |
+| **Phase 7** | Distributed Splunk & High-Availability | Days 54–66 | 🟡 **IN PROGRESS** (2/13) | **10 / 10** (Mastered Single-Site Clustering)<br/>**2 Rooms Cleared** 🏆 | Distributed search, single-site clustering, RF=3, SF=2, port 9887, primary failover |
 | **Phase 8** | Monitoring Console & Performance Tuning | Days 67–73 | ⚪ Not Started | - | - |
 | **Phase 9** | Enterprise Troubleshooting Runbooks | Days 74–80 | ⚪ Not Started | - | - |
 | **Phase 10** | Enterprise Operations & Runbooks | Days 81–85 | ⚪ Not Started | - | - |
@@ -95,6 +95,7 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Ph6 Ch 06** | App Lifecycle & Restart Controls | 🟢 Completed | **10 / 10** | SPLK-1003 6.2/6.3: `restartSplunkd`, `issueReload`, `stateOnClient` (enabled/disabled/noop), safe 3-phase app de-provisioning. <br/>🎮 *[Cyber Range Room P6-06: Zero-Downtime Fleet Maintenance](../Labs/Room_P6_06_App_Lifecycle_and_Restart_Controls.md)* | 2026-10-27 |
 | **Ph6 Ch 07** | **Phase 6 Capstone Lab & Exam** | 🟢 Completed | **10 / 10** | Global Fleet Orchestration across 12,000 nodes, 10 Master Milestone Scenarios, GitOps CI/CD, zero-downtime hot-reload. <br/>🎮 *[Cyber Range Room P6-Capstone: Global Fleet Orchestration Gauntlet](../Labs/Room_P6_Capstone_Global_Fleet_Orchestration.md)* | 2026-10-27 |
 | **Ph7 Ch 01** | Distributed Search Topology | 🟢 Completed | **10 / 10** | SPLK-1003 7.1/7.2: `distsearch.conf`, `add search-server`, Map-Reduce execution, `[replicationBlacklist]`, Quarantined peer triage. <br/>🎮 *[Cyber Range Room P7-01: The Search Head Dispatch Nexus](../Labs/Room_P7_01_Distributed_Search_Topology.md)* | 2026-10-27 |
+| **Ph7 Ch 02** | Single-Site Indexer Clustering | 🟢 Completed | **10 / 10** | SPLK-1003 8.1/8.2: Cluster Manager, $RF=3$, $SF=2$, Replication Port 9887, `pass4SymmKey`, primary promotion failover. <br/>🎮 *[Cyber Range Room P7-02: Single-Site Indexer Cluster Forge](../Labs/Room_P7_02_Single_Site_Indexer_Clustering.md)* | 2026-10-27 |
 
 ---
 

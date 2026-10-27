@@ -162,6 +162,7 @@ graph TD
 | Room ID | Room Name | Focus Area | Difficulty | Points / XP | Link |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | **ROOM P7-01** | **The Search Head Dispatch Nexus** | `distsearch.conf`, bundle bloat triage, peer quarantine recovery | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P7_01_Distributed_Search_Topology.md)** |
+| **ROOM P7-02** | **Single-Site Indexer Cluster Forge**| Cluster Manager, $RF=3$, $SF=2$, port 9887, primary failover | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P7_02_Single_Site_Indexer_Clustering.md)** |
 
 ---
 
