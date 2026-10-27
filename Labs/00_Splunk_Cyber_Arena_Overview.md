@@ -157,6 +157,14 @@ graph TD
 
 ---
 
+## 📂 Phase 7 Challenge Rooms (Distributed Splunk & High-Availability Clusters)
+
+| Room ID | Room Name | Focus Area | Difficulty | Points / XP | Link |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| **ROOM P7-01** | **The Search Head Dispatch Nexus** | `distsearch.conf`, bundle bloat triage, peer quarantine recovery | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P7_01_Distributed_Search_Topology.md)** |
+
+---
+
 ## 🎮 How to Play the Challenge Rooms
 
 1. **🚨 Incident Brief:** Every room starts with a simulated production outage, emergency ticket, or enterprise migration requirement.
