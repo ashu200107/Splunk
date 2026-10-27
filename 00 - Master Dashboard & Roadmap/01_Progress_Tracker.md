@@ -14,7 +14,9 @@ pie title Phase Progress Across Splunk Admin Roadmap
     "Phase 2 Complete (Ch 1-8)" : 8
     "Phase 3 Complete (Ch 1-13)" : 13
     "Phase 4 Complete (Ch 1-11)" : 11
-    "Remaining Phases (Ph 5-11)" : 48
+    "Phase 5 Complete (Ch 1-8)" : 8
+    "Phase 6 Complete (Ch 1-7)" : 7
+    "Remaining Phases (Ph 7-11)" : 37
 ```
 
 | Phase | Description | Target Days | Status | Average Quiz Score | Weak Areas Identified |
@@ -24,7 +26,7 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Phase 3** | Deep Data Onboarding & Parsing Pipeline | Days 16–28 | 🟢 **COMPLETED** | **10 / 10** (Mastered Pipeline)<br/>**All 13 Rooms Cleared** 🏆 | Ingestion pipeline, props/transforms, nullQueue, SEDCMD, CIM |
 | **Phase 4** | Advanced SPL & Search Optimization | Days 29–38 | 🟢 **COMPLETED** | **10 / 10** (Mastered Search Engine)<br/>**All 11 Rooms Cleared** 🏆 | Fast mode, transforming, stats over txn, join limits, tstats, Job Inspector |
 | **Phase 5** | Authentication, RBAC & Security Admin | Days 39–46 | 🟢 **COMPLETED** | **10 / 10** (Mastered RBAC & PKI)<br/>**All 8 Rooms Cleared** 🏆 | Multi-tenant RBAC, authorize.conf, LDAPS port 636, SAML 2.0 SSO, S2S mTLS 9997, CIS non-root hardening, _audit forensics |
-| **Phase 6** | Centralized Deployment Management | Days 47–53 | 🟡 **IN PROGRESS** (6/7) | **10 / 10** (Mastered App Lifecycle)<br/>**6 Rooms Cleared** 🏆 | Deployment Server architecture, serverclass.conf, phoneHome scaling, client diagnostics, GitOps CI/CD, restartSplunkd/noop |
+| **Phase 6** | Centralized Deployment Management | Days 47–53 | 🟢 **COMPLETED** | **10 / 10** (Mastered 10k Fleet Operations)<br/>**All 7 Rooms Cleared** 🏆 | Deployment Server architecture, serverclass.conf, phoneHome scaling, client diagnostics, GitOps CI/CD, app lifecycle, Capstone Exam |
 | **Phase 7** | Distributed Splunk & High-Availability | Days 54–66 | ⚪ Not Started | - | - |
 | **Phase 8** | Monitoring Console & Performance Tuning | Days 67–73 | ⚪ Not Started | - | - |
 | **Phase 9** | Enterprise Troubleshooting Runbooks | Days 74–80 | ⚪ Not Started | - | - |
@@ -91,6 +93,7 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Ph6 Ch 04** | Fleet Diagnostics & Triage | 🟢 Completed | **10 / 10** | SPLK-1003 6.2/6.3: `splunk list deploy-clients`, `show deploy-poll`, GUID collision triage, `reload deploy-server -class`, DMC telemetry. <br/>🎮 *[Cyber Range Room P6-04: Deployment Client Diagnostic Runbook](../Labs/Room_P6_04_Deployment_Client_Diagnostics.md)* | 2026-10-27 |
 | **Ph6 Ch 05** | GitOps & App CI/CD Pipelines | 🟢 Completed | **10 / 10** | SPLK-1003 6.1/6.2: Git versioning, `default/` only hygiene, `ksconf check/sort`, AppInspect CLI precert, REST `_reload` webhooks. <br/>🎮 *[Cyber Range Room P6-05: The GitOps App Deployment Pipeline](../Labs/Room_P6_05_GitOps_App_Deployment_Pipeline.md)* | 2026-10-27 |
 | **Ph6 Ch 06** | App Lifecycle & Restart Controls | 🟢 Completed | **10 / 10** | SPLK-1003 6.2/6.3: `restartSplunkd`, `issueReload`, `stateOnClient` (enabled/disabled/noop), safe 3-phase app de-provisioning. <br/>🎮 *[Cyber Range Room P6-06: Zero-Downtime Fleet Maintenance](../Labs/Room_P6_06_App_Lifecycle_and_Restart_Controls.md)* | 2026-10-27 |
+| **Ph6 Ch 07** | **Phase 6 Capstone Lab & Exam** | 🟢 Completed | **10 / 10** | Global Fleet Orchestration across 12,000 nodes, 10 Master Milestone Scenarios, GitOps CI/CD, zero-downtime hot-reload. <br/>🎮 *[Cyber Range Room P6-Capstone: Global Fleet Orchestration Gauntlet](../Labs/Room_P6_Capstone_Global_Fleet_Orchestration.md)* | 2026-10-27 |
 
 ---
 
