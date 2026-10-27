@@ -22,8 +22,9 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Phase 1** | Splunk Fundamentals & Architecture | Days 1–7 | 🟢 **COMPLETED** | **9.6 / 10** (Quizzes)<br/>**PDF Handbook Generated** 📄 | All gaps reviewed & documented |
 | **Phase 2** | Enterprise Installation & Topology Setup | Days 8–15 | 🟢 **COMPLETED** | **9.8 / 10** (Mastered 4 Tiers)<br/>**All 14 Rooms Cleared** 🏆 | Multi-tier topology, HEC, and Capstone cleared |
 | **Phase 3** | Deep Data Onboarding & Parsing Pipeline | Days 16–28 | 🟢 **COMPLETED** | **10 / 10** (Mastered Pipeline)<br/>**All 13 Rooms Cleared** 🏆 | Ingestion pipeline, props/transforms, nullQueue, SEDCMD, CIM |
+| **Phase 4** | Advanced SPL & Search Optimization | Days 29–38 | 🟢 **COMPLETED** | **10 / 10** (Mastered Search Engine)<br/>**All 11 Rooms Cleared** 🏆 | Fast mode, transforming, stats over txn, join limits, tstats, Job Inspector |
 | **Phase 5** | Authentication, RBAC & Security Admin | Days 39–46 | 🟢 **COMPLETED** | **10 / 10** (Mastered RBAC & PKI)<br/>**All 8 Rooms Cleared** 🏆 | Multi-tenant RBAC, authorize.conf, LDAPS port 636, SAML 2.0 SSO, S2S mTLS 9997, CIS non-root hardening, _audit forensics |
-| **Phase 6** | Centralized Deployment Management | Days 47–53 | 🟡 **UNLOCKED** | - | Ready to commence Day 47 |
+| **Phase 6** | Centralized Deployment Management | Days 47–53 | 🟡 **IN PROGRESS** (2/7) | **10 / 10** (Mastered DS & Server Classes)<br/>**2 Rooms Cleared** 🏆 | Deployment Server architecture, deploymentclient.conf, serverclass.conf, filtering |
 | **Phase 7** | Distributed Splunk & High-Availability | Days 54–66 | ⚪ Not Started | - | - |
 | **Phase 8** | Monitoring Console & Performance Tuning | Days 67–73 | ⚪ Not Started | - | - |
 | **Phase 9** | Enterprise Troubleshooting Runbooks | Days 74–80 | ⚪ Not Started | - | - |
@@ -84,6 +85,8 @@ pie title Phase Progress Across Splunk Admin Roadmap
 | **Ph5 Ch 06** | Securing Splunk (TLS/mTLS) | 🟢 Completed | **10 / 10** | 3 PKI Tiers (Web 8000, S2S 9997, REST 8089), mutual TLS `requireClientCert`, `sslVerifyServerCert`, and OpenSSL. <br/>🎮 *[Cyber Range Room P5-06: The S2S Man-in-the-Middle Defense](../Labs/Room_P5_06_Securing_Splunk_Communications_TLS.md)* | 2026-10-17 |
 | **Ph5 Ch 07** | Splunk Hardening & Audit Forensics | 🟢 Completed | **10 / 10** | CIS benchmarks, non-root `splunk:splunk`, `startwebserver=0`, `support_info=false`, and `index=_audit` forensics. <br/>🎮 *[Cyber Range Room P5-07: The Fortress Hardening Audit](../Labs/Room_P5_07_Splunk_Hardening_and_Audit_Forensics.md)* | 2026-10-17 |
 | **Ph5 Ch 08** | **Phase 5 Capstone Lab & Exam** | 🟢 Completed | **10 / 10** | Enterprise RBAC, SAML 2.0 Web SSO, Wire-Speed S2S mTLS 9997, CIS Hardening, and Master Milestone Exam. <br/>🎮 *[Cyber Range Room P5-Capstone: Security Architecture Gauntlet](../Labs/Room_P5_Capstone_Enterprise_Security_Architecture.md)* | 2026-10-17 |
+| **Ph6 Ch 01** | Deployment Server & Pairing | 🟢 Completed | **10 / 10** | SPLK-1003 6.0: `deploymentclient.conf`, `targetUri`, `serverclass.conf`, `deployment-apps/`, `restartSplunkd`, and `reload deploy-server`. <br/>🎮 *[Cyber Range Room P6-01: The Rogue Forwarder Fleet](../Labs/Room_P6_01_Deployment_Server_and_Pairing.md)* | 2026-10-27 |
+| **Ph6 Ch 02** | Server Classes & App Bundling | 🟢 Completed | **10 / 10** | SPLK-1003 6.2/6.3: Whitelist/blacklist index contiguous rules, `machineTypesFilter = linux-x86_64`, modular app bundles, lookup restarts. <br/>🎮 *[Cyber Range Room P6-02: Server Class Precision Surgery](../Labs/Room_P6_02_Server_Classes_and_App_Bundles.md)* | 2026-10-27 |
 
 ---
 

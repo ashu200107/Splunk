@@ -143,6 +143,15 @@ graph TD
 
 ---
 
+## 📂 Phase 6 Challenge Rooms (Centralized Deployment Management)
+
+| Room ID | Room Name | Focus Area | Difficulty | Points / XP | Link |
+| :---: | :--- | :--- | :--- | :--- | :---: |
+| **ROOM P6-01** | **The Rogue Forwarder Fleet** | `deploymentclient.conf`, `targetUri`, `serverclass.conf`, reload | 🟢 Easy-Med | `250 XP` | **[Enter Room](./Room_P6_01_Deployment_Server_and_Pairing.md)** |
+| **ROOM P6-02** | **Server Class Precision Surgery** | `serverclass.conf`, `whitelist.<n>` sequencing, `machineTypesFilter` | 🟡 Medium | `250 XP` | **[Enter Room](./Room_P6_02_Server_Classes_and_App_Bundles.md)** |
+
+---
+
 ## 🎮 How to Play the Challenge Rooms
 
 1. **🚨 Incident Brief:** Every room starts with a simulated production outage, emergency ticket, or enterprise migration requirement.
